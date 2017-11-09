@@ -222,7 +222,7 @@ func (this *CMSController) AllBlock() {
 
 可以在 `router.go` 中通过如下方式注册路由：
 
-	beego.Include(&CMSController{})
+	beego.Include(&controllers.CmsController{})
 
 
 beego 自动会进行源码分析，注意只会在 dev 模式下进行生成，生成的路由放在 "/routers/commentsRouter.go" 文件中。
